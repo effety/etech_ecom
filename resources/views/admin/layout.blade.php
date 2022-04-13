@@ -67,8 +67,8 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                            <a href="category">
+                                <i class="fas fa-chart-bar"></i>Category</a>
                         </li>
                         
                     </ul>
