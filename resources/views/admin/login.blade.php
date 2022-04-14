@@ -43,7 +43,7 @@
                     <div class="login-content">
                         <div class="login-logo">
                             <a href="#">
-                                <img src="images/icon/logo.png" alt="CoolAdmin">
+                                <img src="{{asset('admin_assets/images/icon/logo.png')}}" alt="etech">
                             </a>
                         </div>
                         <div class="login-form">
