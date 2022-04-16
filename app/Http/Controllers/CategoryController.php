@@ -16,6 +16,9 @@ class CategoryController extends Controller
     {
         return view('admin.category');
     }
+    public function manageCategory(){
+        return view('admin.category_management');
+    }
 
     /**
      * Show the form for creating a new resource.
