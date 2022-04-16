@@ -19,7 +19,12 @@ class CategoryController extends Controller
     public function manageCategory(){
         return view('admin.category_management');
     }
-
+    public function add_cat(Request $request){
+        $category = new Category;
+        $category->cate_name =$request->categoryName;
+        $category->cate_match =$request->categoryMatch;
+        $category->save();    
+    }
     /**
      * Show the form for creating a new resource.
      *

@@ -7,14 +7,15 @@
     <div class="card-header">Add Categories</div>
     <div class="card-body">
         <hr>
-        <form action="" method="post" novalidate="novalidate">
+        <form action="{{route('admin.add_cat')}}" method="post" novalidate="novalidate">
+        @csrf
             <div class="form-group">
                 <label for="cc-payment" class="control-label mb-1">Category Name</label>
                 <input id="categoryName" name="categoryName" type="text" class="form-control" aria-required="true" aria-invalid="false" value="100.00">
             </div>
             <div class="form-group has-success">
                 <label for="cc-name" class="control-label mb-1">Category match</label>
-                <input id="categoryMatch" name="cc-categoryMatch" type="text" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card"
+                <input id="categoryMatch" name="categoryMatch" type="text" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card"
                     autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name-error">
                 <span class="help-block field-validation-valid" data-valmsg-for="cc-name" data-valmsg-replace="true"></span>
 </div>
